@@ -1,0 +1,35 @@
+body{
+background-color: black;
+color: #5e5c56;
+}
+p{
+    font-family: calibiri;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial;
+    color: #c0cb7f;
+}
+
+a{
+color: #667f51;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline
+}
+
+table{
+border: 1px;  
+background-color: #222222;  
+border-color: #a64626;
+border-width: 250px;
+}
+
+ul{
+list-style-type: square;
+}
+
+dl{
+color: #a64626;    
+}
