@@ -3,7 +3,8 @@ margin: 0;
 }
 body{
 font-family: Verdana; 
-font-size: 14pt;   
+font-size: 14pt;  
+background-color: darksalmon;
 }
 
 h1{
@@ -23,8 +24,20 @@ width: 900px;
 }
 #wrapper{
 width: 900px;
-background-color: #ff3333;  
+/*background-color: #ff3333;*/
+margin: auto;
+
 }
+
+#contact{
+    width: 900px;
+    background-color: #cccccc;
+    width: 900px;
+    margin: 20px 0 0 0;
+    padding: 20px 5px 5px 5px; 
+    text-decoration: none;
+    }
+
 nav{
 background-color: #cccccc;
 width: 900px;    
@@ -42,7 +55,7 @@ div{
     width: 900px;
 }
 
-a{
+nav a{
 font-family: Impact; 
 font-size: 15pt;
 color: black;   
@@ -51,9 +64,11 @@ display: inline-block;
 width: 200px;
 height: 50px;
 line-height: 50px;
+padding: 0 0 0 25px;
+
 }
 
-a:hover{
+nav a:hover{
 background-color: white;    
 }
 #bigimage img{
@@ -84,4 +99,23 @@ article img{
 float: right;  
 width: 348px;  
 margin: 20px;
+}
+
+p a{
+color: #00c9fd;
+text-decoration: none;
+font-weight: bold;    
+}
+
+p a:hover{
+font-size: 105%;
+color: black;    
+}
+
+footer{
+height: 150px;  
+}
+
+footer p{
+color: white;    
 }

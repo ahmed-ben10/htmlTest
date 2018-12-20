@@ -25,6 +25,14 @@ background-color: #222222;
 border-color: #a64626;
 border-width: 250px;
 }
+table.nav:hover{
+    border: 1px;  
+    background-color: #222222;  
+    border-color: #a64626;
+    border-width: 250px;
+   
+    }
+    
 
 ul{
 list-style-type: square;
@@ -32,4 +40,8 @@ list-style-type: square;
 
 dl{
 color: #a64626;    
+}
+a.nav{
+background-color: #667f51;
+color:white;
 }
