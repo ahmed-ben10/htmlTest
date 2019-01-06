@@ -52,7 +52,7 @@ background-color: #00c9fd;
 }
 
 div{
-    width: 900px;
+width: 900px;
 }
 
 nav a{
@@ -65,17 +65,16 @@ width: 200px;
 height: 50px;
 line-height: 50px;
 padding: 0 0 0 25px;
-
 }
 
 nav a:hover{
 background-color: white;    
 }
+
 #bigimage img{
 width: 900px;  
-
-
 }
+
 #bigimage{
     width: 900px;  
     color:#00c9fd;
