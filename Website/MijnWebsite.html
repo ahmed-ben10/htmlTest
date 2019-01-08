@@ -5,17 +5,19 @@
     </head>
     <body>
         <div id="headwrapper">
-            <h1>De eeste auto in Nederland</h1>    
+            <header>
+                <h1>De eeste auto in Nederland</h1>
+            </header>    
             <hr>
             <nav>
                 <a href="MijnWebsite.html"class="pointer" >HOME</a>  
                 <a href="MeerInfo.html">Meer informatie</a> 
                 <a href="tijdlijn">tijdlijn</a>
             </nav>
-            
-                <div id="bigimage">
+            </div>
+                <div id="bigimage"></div>   
 
-                </div>
+                
             <main>
                 <article class="left">
                     <h1>De allereerste ooit</h1>    
@@ -33,7 +35,12 @@
                 <article class="clear">
                         <h1>Tot slot</h1>    
                         <p>Aliquam cursus accumsan tellus eu scelerisque. Ut aliquam odio neque, nec sagittis mi varius non. Proin iaculis maximus nulla, sed convallis purus euismod condimentum. Proin a condimentum lectus, nec commodo nibh. Aliquam volutpat ornare massa vitae pellentesque. Aliquam erat volutpat. Morbi non neque ex. Morbi tristique eros eget enim euismod pellentesque. Donec vel sollicitudin tortor.</p>
-                </article></main>
-        </div>    
+                </article>
+            </main>
+            <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
     </body>
 </html>

@@ -4,6 +4,7 @@ margin: 0;
 
 #headwrapper{
 background-color:rgb(35, 48, 48);
+width: 100%;
 }
 
 h1{
@@ -14,13 +15,22 @@ h2{
 color: #5a4025;
 font-weight:20px; 
 }
+
 p{
 font-weight: 12px;
 color:burlywood;
 }
+
+header{ 
+width: 900px; 
+ margin: auto;
+}
+
 nav{
-background-color: darkslategray;    
+background-color: rgb(35, 48, 48);    
 padding: 10px 10px 10px 0;
+width: 900px;  
+margin: auto;  
 }
 
 nav a{
@@ -38,27 +48,57 @@ background-color: chocolate;
 
 body{
 background-image:url(Images/prism.png);  
-font-size:12px;   
+font-size:12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 .pointer{
-    color: burlywood;
+color: burlywood;
 }
 
 .left{
-    width: 290px;
-    height: 1107px;
-    float: left;
-    margin: 0 0 0 10px;
+width: 520px;
+float: left;
+margin: 0 10px 0 0;
 }
-.right{
+    
+
+.smallright{
     width: 290px;
     height: 1107px;
     float: right;
-    margin: 0 0 0 10px;  
+    margin: 0 0 0 10px;
+    }
+
+#bigimage {
+background-image: url(Images/bigimage.jpg);
+width: 100%;
+background-size:cover;
+background-position: center; 
+height: 474px;   
 }
 
-.clear{
-    clear: both;    
+main{
+width: 900px;
+margin: auto;    
+}
+
+div{
+    width: 900px;
     }
+
+
+article h1{
+padding: 10px;
+font-family: Impact;
+font-size: 25pt;
+text-align: center;
+margin: 20px 0 20px 0;    
+}
+
+article img{
+float: right;  
+width: 348px;  
+margin: 20px;
+}
     
