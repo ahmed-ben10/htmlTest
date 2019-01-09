@@ -137,8 +137,8 @@ background-color: #00c9fd;
 
 footer p{
 color: white;   
-text-align: center; 
 width: 860px;
+position: relative
 }
 
 .focus{

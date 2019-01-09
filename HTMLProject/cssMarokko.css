@@ -1,0 +1,105 @@
+
+                *{
+                 margin: 0;    
+                 }
+                img.floatLeft{
+                float:left;
+                margin:10px;    
+                }
+            
+            
+                img.floatRight{
+                float:right;
+                margin:10px;    
+                }
+                
+                body {
+                background-image:url(Images/dust_scratches.png);
+                }
+            
+                h1, h2 {
+                color: firebrick;
+                height: 50px;
+                line-height: 50px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+                h2 {
+                text-align: left;
+                }
+            
+                p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                }
+            
+                ul {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                }
+            
+                b {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                }
+                div{
+                    background-color: darkslategrey;    
+                }
+            
+                nav{
+                background-color: lightgreen;
+                padding: 0px 20px 0px 0px;
+                margin: auto;
+                }
+                nav a{
+                color:black;
+                font-family: Impact;
+                font-size: 15pt;
+            
+                text-decoration: none;
+                display: inline-block;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 0 0 25px;
+                }
+            
+                nav a:hover{
+                background-color: green;
+                color: black;   
+                }
+
+                .pointer{
+                 color: green;   
+                }
+                #bigimage{
+                background-image: url(Images/bigimage.jpg);
+                width:100%;
+                height: 550px;
+               background-size:cover;
+               position: relative;
+               background-position: center;
+                }
+                article{
+                margin: auto; 
+                padding: 20px;   
+                width: 900px;
+                background-color: lightgray;
+                }
+
+                footer{
+                height: 150px;
+                background-color: lightgreen;
+
+                }
+                footer p{
+                text-align: center;  
+                margin: auto;  
+                padding: 20px;
+                font-weight: bold;
+                }
+
+                .aOpmaak{
+                text-decoration: none;
+                font-weight:bold; 
+                color: firebrick;    
+                }
