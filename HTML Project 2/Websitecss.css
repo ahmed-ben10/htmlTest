@@ -139,5 +139,7 @@ footer{
 
 footer p{
     text-align: center;
+    color: #f2f2f2;
+    font-size: 8.8pt;
     font-family: 'Roboto', Verdana, sans-serif;
 }
