@@ -7,6 +7,9 @@ body{
      background-image: url(images/dust_scratches.png);
 }
 
+p{
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
 header{
     width: 100%;
     background-color: white;
@@ -32,7 +35,8 @@ nav a{
 
 nav a:hover{
     background-color: lightgreen;
-    padding: 15.2px 20px 15.2px 20px;
+    padding: 15.2px 26px 15.6px 20px;
+    color: #f2f2f2;
 }
 
 #bigimage{
@@ -46,12 +50,16 @@ nav a:hover{
 
 #start{
     float: left;
-    width: 300px;
-    height: 460px;
+    width: 320px;
     background-color: gray;
-    margin-left: 440px;
+    margin-left: 410px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#start img{
+    padding: 20px 20px 10px 25px;
 }
 
 #firstText{
@@ -65,17 +73,53 @@ nav a:hover{
 
 #secondText{
     width: 520px;
-    height: 300px;;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin-left: 800px;
     margin-top: 20px;
     background-color: gray;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 #secondText video{
-    width: 430px;
+    width: 440px;
     border-radius: 10px;
     padding: 20px;
     border-radius: 40px;
+}
+
+#contact {
+    width: 100%;
+    background-color: darkslategray;
+}
+#contact table{
+    margin: auto;
+}
+#contact table img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    opacity: 1.2;
+}
+
+#contact table img:hover{
+    opacity: 0.6;
+}
+footer{
+    width: 100%;
+    background-color: darkslategray;
+    height: 80px;
+}
+
+footer p{
+    line-height: 80px;
+    margin-left: 500px;
+}
+
+/*HIER KOMEN DE KLASSEN*/
+.focus{
+    color: aqua;
+}
+.centerP{
+    text-align: center;
 }
