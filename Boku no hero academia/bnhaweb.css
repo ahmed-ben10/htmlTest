@@ -47,12 +47,35 @@ nav a:hover{
     background-position: center;
     background-size: cover; 
 }
+#imageLeft{
+    width: 400px;
+    height: 560px;
+    margin-top: 20px;
+    background-image: url(images/imageLeft.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#imageRight{
+    width: 400px;
+    height: 560px;
+    margin-top: -585px;
+    background-image: url(images/imageRight.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-bottom: 50px;
+}
 
 #start{
     float: left;
     width: 320px;
-    background-color: gray;
-    margin-left: 410px;
+    background-image: linear-gradient(180deg,#277057,#277077);
+    margin-left:85px;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -64,8 +87,8 @@ nav a:hover{
 
 #firstText{
     width: 520px;
-    background-color: gray;
-    margin-left: 800px;
+    background-image: linear-gradient(180deg,#277057,#277077);
+    margin-left: 875px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -74,15 +97,16 @@ nav a:hover{
 #secondText{
     width: 520px;
     padding: 20px 20px 0px 20px;
-    margin-left: 800px;
+    margin-left: 875px;
     margin-top: 20px;
-    background-color: gray;
+    background-image: linear-gradient(180deg,#277057,#277077);
     border-radius: 10px;
     margin-bottom: 50px;
 }
 
-#secondText video{
+#secondText iframe{
     width: 440px;
+    height: 250px;
     border-radius: 10px;
     padding: 20px;
     border-radius: 40px;
@@ -92,7 +116,7 @@ nav a:hover{
     width: 100%;
     background-color: darkslategray;
 }
-#contact table{
+#contact {
     margin: auto;
 }
 #contact table img{
@@ -115,6 +139,22 @@ footer p{
     line-height: 80px;
     margin-left: 500px;
 }
+#btn{
+    display: none;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 4px;;
+    border: none;
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+#btn:hover{
+    opacity: 0.7;
+}
 
 /*HIER KOMEN DE KLASSEN*/
 .focus{
@@ -122,4 +162,85 @@ footer p{
 }
 .centerP{
     text-align: center;
+}
+
+/* TAbEL VOOR DE KARAKTERS*/
+#karakters {
+   margin-top: 20px;
+   margin-left: 520px;
+   margin-bottom: 50px;
+   width: 1000px;
+}
+
+#karakters table th{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: #9e2929;
+    text-align: center;
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+#karakters table td{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: #e47676;
+    text-align: center;
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+
+#karakters table td img{
+    padding: 20px;
+}
+
+#foto1{
+    background-image: url(images/Izuku_Midoriya_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
+}
+
+#foto2{
+    background-image: url(images/Katsuki_Bakugo_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
+}
+
+#foto3{
+    background-image: url(images/All_Might_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
+}
+
+#foto4{
+    background-image: url(images/Ochaco_Uraraka_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
+}
+
+#foto5{
+    background-image: url(images/Tenya_Iida_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
+}
+
+#foto6{
+    background-image: url(images/Shouto_Todoroki_Portrait.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 135px;
+    height: 135px;;
 }
