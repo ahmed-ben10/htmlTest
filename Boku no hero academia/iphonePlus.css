@@ -1,4 +1,7 @@
 @media screen and (max-width: 414px){
+    #wrapper{
+        width: 414px;
+    }
     #imageLeft{
         display: none;
     }

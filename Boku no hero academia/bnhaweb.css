@@ -39,6 +39,10 @@ nav a:hover{
     color: #f2f2f2;
 }
 
+#wrapper{
+    width: 620px;
+    margin: auto;
+}
 #bigimage{
     background-image: url(images/bigimage.png);
     width: 100%;
@@ -48,7 +52,7 @@ nav a:hover{
     background-size: cover; 
 }
 #imageLeft{
-    width: 300px;
+    width: 250px;
     height: 560px;
     margin-top: 20px;
     background-image: url(images/imageLeft.png);
@@ -63,7 +67,7 @@ nav a:hover{
 }
 
 #imageRight{
-    width: 300px;
+    width:  250px;
     height: 560px;
     margin-top: -585px;
     background-image: url(images/imageRight.png);
@@ -79,7 +83,7 @@ nav a:hover{
 
 /*PAGINA 2  SIDEIMAGE INSTELLINGEN*/
 #imageLeftPage2{
-    width: 300px;
+    width: 290px;
     height: 960px;
     margin-top: 20px;
     background-image: url(images/imageLeft.png);
@@ -93,7 +97,7 @@ nav a:hover{
     border-right: solid 1px black;
 }
 #imageRightPage2{
-    width: 300px;
+    width: 290px;
     height: 960px;
     margin-top: -975px;
     background-image: url(images/imageRight.png);
@@ -112,7 +116,7 @@ nav a:hover{
     float: left;
     width: 320px;
     background-image: linear-gradient(180deg,#277057,#277077);
-    margin-left:145px;
+    margin-left:40px;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -125,7 +129,7 @@ nav a:hover{
 #firstText{
     width: 520px;
     background-image: linear-gradient(180deg,#277057,#277077);
-    margin-left: 820px;
+    margin-left: 450px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -134,7 +138,7 @@ nav a:hover{
 #secondText{
     width: 520px;
     padding: 20px 20px 0px 20px;
-    margin-left: 820px;
+    margin-left: 450px;
     margin-top: 20px;
     background-image: linear-gradient(180deg,#277057,#277077);
     border-radius: 10px;
@@ -204,7 +208,7 @@ footer p{
 /* TAbEL VOOR DE KARAKTERS*/
 #karakters {
    margin-top: 20px;
-   margin-left: 500px;
+   margin-left: 0;
    margin-bottom: 50px;
 }
 
