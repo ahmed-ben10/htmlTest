@@ -1,6 +1,7 @@
 @media screen and (max-width: 375px){
-    #wrapper{
+    #wrapperIndex,#wrapperSub{
         width: 375px;
+        margin: 0;
     }
     #imageLeft{
         display: none;
@@ -16,7 +17,10 @@
     #imageRightPage2{
         display: none;
     }
-
+    #start img{
+        padding: 0;    
+    }
+    
     #start, #firstText,#secondText,#secondText iframe,footer p{
         margin-top: 20px;
         margin-bottom: 20px;

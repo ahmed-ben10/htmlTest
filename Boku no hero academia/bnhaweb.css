@@ -39,7 +39,12 @@ nav a:hover{
     color: #f2f2f2;
 }
 
-#wrapper{
+#wrapperIndex{
+    width: 620px;
+    margin-left: 200px;
+}
+
+#wrapperSub{
     width: 620px;
     margin: auto;
 }
@@ -116,7 +121,7 @@ nav a:hover{
     float: left;
     width: 320px;
     background-image: linear-gradient(180deg,#277057,#277077);
-    margin-left:40px;
+    margin-left:60px;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -129,7 +134,7 @@ nav a:hover{
 #firstText{
     width: 520px;
     background-image: linear-gradient(180deg,#277057,#277077);
-    margin-left: 450px;
+    margin-left: 490px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -138,7 +143,7 @@ nav a:hover{
 #secondText{
     width: 520px;
     padding: 20px 20px 0px 20px;
-    margin-left: 450px;
+    margin-left: 490px;
     margin-top: 20px;
     background-image: linear-gradient(180deg,#277057,#277077);
     border-radius: 10px;

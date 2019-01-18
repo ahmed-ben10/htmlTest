@@ -1,6 +1,6 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
     #wrapperIndex,#wrapperSub{
-        width: 320px;
+        width: 480px;
         margin: 0;
     }
     #imageLeft{
@@ -21,39 +21,40 @@
     #start img{
         padding: 0;    
     }
-    #start, #firstText,#secondText,footer p{
+
+    #start, #firstText,#secondText,#secondText iframe,footer p{
         margin-top: 20px;
         margin-bottom: 20px;
         clear: both;
         margin-left:0;
-        width:280px;
+        width: 440px;
     }
     #secondText iframe{
-        width: 260px
+        width: 300px
     }
 
     /*TABEL IINSTELLINGEN*/
     #karakters{
         margin-left: 0;
-        width: 320px;
+        width: 480px;
 
     }
 
     #karakters table{
-        margin-left: 0px;
-        width: 320px;
+        margin-left: 10px;
+        width: 460px;
         
     }
 
     #karakters table td,th{
         padding-left:0;
-        font-size: 7.6pt;
+        font-size: 10pt;
     }
     
     
     #foto1,#foto2,#foto3,#foto4,#foto5,#foto6{
         width: 50px;
-        height: 50px;
+        height: 50px;;
     }
 
     footer p{
