@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     #wrapperIndex,#wrapperSub{
         width: 100%;
         margin: 0;
@@ -23,8 +23,8 @@
         padding: 10px 0 10px 0;    
     }
     #start, #firstText,#secondText,footer p{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         clear: both;
         margin-left:0;
         width:100%;
