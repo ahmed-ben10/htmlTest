@@ -41,3 +41,18 @@ function invoer(){
     var invoer=prompt("Voer een zin in","uw zin");
     document.getElementById('stringInvoer').innerHTML="Uw invoer:"+invoer+"<br> eerste spatie op plek:"+invoer.indexOf(" ");      
 }
+
+function operatoren(){
+   var a=10;
+   var b=5;
+   var som;
+   a+=b;//toewijzing operatoor 
+   som=10+10//wiskundige operatoor
+   var zin="ik heet"+" Ahmed"//string operatoor
+   var result=(a==b);//logische operatoor
+   var result=(a==b);//vergelijking operatoor
+   var dag="maandag";
+   var uitspraak=(dag=="zaterdag"||"zondag")?'Het is weekend!':'Helaas, nog even doorwerken';//voorwaardelijke operatoor
+   typeof a;//typeof operatoor
+
+}
