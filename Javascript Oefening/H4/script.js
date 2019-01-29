@@ -29,13 +29,14 @@ function ArrayFunctie(){
     }
 }
 
-var Mercedes=new Auto('Mercedes','500SL',5,2014);
 
-class auto{
+
+class Auto{
     constructor(merk,model,aantalDeuren,bouwjaar){
         this.merk=merk;
         this.model=model;
-        this.aantalDeuren=aantalDeuren';
+        this.aantalDeuren=aantalDeuren;
         this.bouwjaar=bouwjaar;
     }
 }
+var Mercedes=new Auto('Mercedes','500SL',5,2014);
