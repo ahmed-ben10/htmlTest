@@ -1,7 +1,7 @@
 whileLus();
 getDocument();
 forLus();
-
+var teller=0;
 function whileLus(){
     var teller=10;
     while(teller>=0){
@@ -18,17 +18,29 @@ function forLus(){
 }
   
 function getDocument(){
+     l:for(var teller=0; teller<=10;teller++){
     for(var i in window.document){
-        for( var i=0;i<10;i++){
-                document.getElementById('nav').innerHTML+= 
-                i +': ' + window.document[i] +'<br />'; 
-        }
+        
+       
+        
+                    document.getElementById('nav').innerHTML+= 
+                    i +': ' + window.document[i] +'<br />'; 
+                    teller++;
+                    if(teller>=10){
+                        break l;
+                    }
+            
+            }
    }
 }
 
+
 function getNavigator(){
     for( var i in window.navigator){
-        document.getElementById('nav').innerHTML+= 
-            i +': ' + window.navigator[i] +'<br />';
+        if(i.length<=10){
+            document.getElementById('nav').innerHTML+= 
+            i +': ' + window.navigator[i] +'<br />'; 
+        }
+       
     }  
 }
