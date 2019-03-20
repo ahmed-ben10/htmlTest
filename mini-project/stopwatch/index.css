@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+#timer{
+    margin-top: 200px;
+    font-family: "Lato";
+    font-weight: 100;
+    font-size: 100pt;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+}
