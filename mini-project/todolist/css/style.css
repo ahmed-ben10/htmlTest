@@ -61,6 +61,14 @@ body{
     border-right: 1px solid gray;
 }
 
+.remove{
+    background-color: red;
+    float: right;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
 ul li:nth-child(odd) {
     background: lightblue;
   }
