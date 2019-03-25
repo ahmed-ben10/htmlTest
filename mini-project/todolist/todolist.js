@@ -14,6 +14,21 @@ function addFunction(){
         document.getElementById('txt').style.border="1px solid black";
         var todoItemList= document.getElementById('todoitemlist');
         todoItemList.appendChild(newElem); 
+        var verwijder= document.createElement("button");
+        var verwijderTxt= document.createTextNode("Verwijder");
+        verwijder.onclick= deleteItem;
+        verwijder.className="remove";
+        verwijder.appendChild(verwijderTxt);
+        newElem.appendChild(verwijder);
+
     }
 }
+    // algemene event handler om boodschap te verwijderen.
+    function deleteItem(e) {
+        // Haal het te verwijderen element uit het muisevent e.target.
+        var elementToBeDeleted = e.target.parentElement;
+
+        // Verwijder het uit de lijst.
+        document.getElementById('todoitemlist').removeChild(elementToBeDeleted);
+    }
 
