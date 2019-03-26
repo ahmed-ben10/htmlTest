@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-image: url('images/concert2.jpg');
+  font-family:Arial;
+}
+h2, h3,p, a{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapper{
+  width: 900px;
+  margin: auto;
+  margin:0px auto;
+  height:100%;
+  overflow:hidden;   
+}
+
+#bigimage{
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/billie.jpg');
+  margin-top:-100px;
+  background-position: center;
+  background-size:cover;  
+}
+
+nav{
+  width: 100%;
+  top: 0;
+  position: sticky;
+  background-color:black;
+  text-align: center;
+  box-shadow: 10px 1px;
+  padding: 50px 0px 35px 0px;
+  z-index: 99;
+}
+
+nav h1{
+  color:white;
+  float: left;
+  margin-left: 400px;
+}
+nav a{
+  margin-left: 90px;
+  padding: 12px 20px 15px 20px;
+  color: white;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+nav a:hover{   
+color: black !important;
+background-color: white;
+-webkit-transition: background-color 1s; 
+transition: background-color 1s;
+}
+
+.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+margin-top: 0.5%;
+display: none;
+position: absolute;
+background-color:black;
+min-width: 160px;
+box-shadow: 1px 1px;
+margin-left: 90px;
+}
+
+.dropdown-content a {
+color: white;
+margin-right: 0;
+margin-left:0; 
+padding: 12px 10px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #f1f1f1 !important;
+-webkit-transition: background-color 1s; 
+transition: background-color 1s;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.focus{
+color: yellow !important;
+}
+
+article{
+width:300px;
+padding: 10px;
+height: 370px;
+margin: 20px 10px 10px 0;
+background-color:black;
+float: left;
+text-align: center;
+border-radius: 10px;  
+}
+
+article p{
+text-align: left;
+font-size: 11pt;
+}
+
+article img{
+width: 100%;
+height:54.056%;
+margin: 10px 0;
+z-index: 98;
+}
+
+article img:hover{
+transform: scale(1.03);
+-webkit-transition: transform 800ms; 
+transition: transform 800ms;
+}
+
+#top_10{
+float: right;
+padding: 10px;
+padding-left: 5px;
+width: 225px;
+margin-top: 20px;
+background-color:black ;
+border-radius: 10px;
+}
+
+#top_10 ul{
+padding-left: 0%;
+list-style-type: none;
+}
+
+#top_10 ul li{
+padding-top:27px; 
+}
+
+#top_10 ul a{
+text-decoration: none;
+color: white;
+}
+
+#top_10 ul a:hover{
+color: yellow;
+}
+
+#top_10 img{
+width: 50px;
+height: 50px;
+float: left;
+margin-right: 3%;
+}
+
+#top_10 img:hover{
+transform: scale(1.1);
+-webkit-transition: transform 800ms; 
+transition: transform 800ms;
+}
+
+#top_10 h2{
+text-align: center;
+}
+
+#contact{
+  border-radius: 10px;
+  float: right; 
+  width: 225px;
+  padding: 5px;
+  height: 378px;
+  background-color:black;
+  margin-top: 22px;
+  margin-bottom: 5%;
+  color: white;
+  text-align: center;
+}
+
+#contact h2{
+text-align: center;
+}
+
+#contact img{
+padding:6%; 
+width: 25%;
+}
+
+#contact img:hover{
+transform: scale(1.1);
+-webkit-transition: transform 800ms; 
+transition: transform 800ms;
+}
+
+#contact a{
+color:white;
+}
+
+#contact a:hover{
+color: yellow
+}
+
+footer{
+clear: both;
+height: 100px;
+background-color:black;
+}
+
+footer p{
+line-height: 100px;
+text-align: center;
+}
+
+
+
