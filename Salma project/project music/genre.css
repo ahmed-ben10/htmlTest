@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:#f5d5d5;
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+
+h2, p, a{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #wrapper{
+    width: 900px;
+    margin: auto;
+    margin:0px auto;
+    overflow:hidden;   
+}
+
+nav img{
+  width: 50px;
+  height: 50px;
+}
+
+nav{
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    box-shadow: 5px 1px;
+    padding: 10px 0px 15px 0px;
+}
+
+nav h1{
+  font-family: Bauhaus 93;
+  color:white;
+  float: left;
+  margin-left: 100px;
+  margin-right: 130px;
+}
+
+
+nav a{
+    margin-left: 80px;
+    padding: 12px 20px 15px 20px;
+    color: white;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{    
+    color: black !important;
+    background-color: white;
+    -webkit-transition: background-color 1s; 
+    transition: background-color 1s;
+}
+
+.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: 0.5%;
+    display: none;
+    position: absolute;
+    background-color: #320A18;
+    min-width: 160px;
+    margin-left: 80px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    margin-left:0; 
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1 !important;
+    -webkit-transition: background-color 1s; 
+    transition: background-color 1s;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .focus{
+    color: yellow !important;
+  }
+
+#genrenaam{
+  width: 100%;
+  height:70px ;
+  background-color: #320A18;
+  border-radius:20pt; 
+}
+
+#genrenaam h2{
+  margin-top: 2%;
+  line-height: 70px;
+  text-align: center;
+}
+
+article{
+    width:270px;
+    font-size: 14pt;
+    padding: 7px;
+    height: 330px;
+    margin: 5% 0% 2% 1.4%;
+    background-color: #320A18 ;
+    float: left;
+    border-radius: 10px;
+}
+
+article h2{
+    text-align: center;
+}
+
+#articlegenrenaam{
+  margin: 1% 0% 10% 1%;
+}
+
+article img{
+    width: 240px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 20pt;
+}
+
+article img:hover{
+  transform: scale(1.05);
+  -webkit-transition: transform 800ms; 
+  transition: transform 800ms;
+
+}
+
+article:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#contact{
+  border-radius: 10px;
+  float: right; 
+  width: 225px;
+  padding: 5px;
+  height: 378px;
+  background-color:black;
+  margin-top: 22px;
+  margin-bottom: 5%;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  clear: both;
+  height: 100px;
+  background-color: #320A18;
+  bottom: auto;
+  width: 100%;
+  position: absolute;
+}
+
+footer p{
+ line-height: 100px;
+  text-align: center;
+}
