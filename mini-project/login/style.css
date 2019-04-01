@@ -3,16 +3,21 @@
 }
 
 body{
-
+    background-image:url('images/preorder-background.jpg');
 }
 
-#login-container{
-    width: 550px;
+#login-container,#signup-container{
+    width: 60%;
+    color: white;
     border: 1px solid gray;
-    background-color: lightgray;
+    background-color: #182433bf;
     padding: 10px;
     margin: auto;
     margin-top: 10% 
+}
+
+#login-container h1,#signup-container h1{
+    text-align: center;
 }
 
 #message{
@@ -21,13 +26,35 @@ body{
     display: none;
 }
 
-#login-container h1, #login-container h2{
+#login-container h1, #login-container h2,#signup-container h1, #signup-container h2{
     margin-bottom: 2%; 
     font-weight: 100;
 }
 
-#username, #password{
-    width: 96%;
-    margin-bottom: 1%;
+input{
+    width: 95%;
+    margin-bottom: 3%;
     padding: 2%;
+}
+
+#submit, #signupsubmit{
+    background-color: #182433bf;
+    color: white;
+    width:99.5%;
+    padding: 1%;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+#login-container a,#signup-container a{
+    color: white;
+}
+#login-container a:hover,#signup-container a:hover{
+    color: rgb(45, 57, 75);
+    cursor: pointer;
+}
+
+#signup-container{
+    display: none;
 }

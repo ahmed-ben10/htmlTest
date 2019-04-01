@@ -6,8 +6,8 @@ window.onload = function (){
         },
         
         {
-            username: "qwerty",
-            password: "123"  
+            username: "admin",
+            password: "0000"  
         },
 
         {
@@ -54,6 +54,33 @@ window.onload = function (){
                 document.getElementById("message").style.display="block";
                 return
             }
+        }
+    });
+
+    document.getElementById("signup").addEventListener("click", function(){
+        document.getElementById("login-container").style.display="none";
+        document.getElementById("signup-container").style.display="block";
+    });
+
+    document.getElementById("signin").addEventListener("click", function(){
+        document.getElementById("login-container").style.display="block";
+        document.getElementById("signup-container").style.display="none";
+    });
+
+    document.getElementById("signupsubmit").addEventListener("click", function(){
+        var username = document.getElementById("signupusername").value;
+        var password = document.getElementById("signuppassword").value;
+        var email = document.getElementById("email").value;
+        if(username == ""){
+            document.getElementById("signupusername").style.border=" 1px solid red";
+        }
+
+        if(password == ""){
+            document.getElementById("signuppassword").style.border=" 1px solid red";
+        }
+
+        if(email == ""){
+            document.getElementById("email").style.border=" 1px solid red";
         }
     });
 };
