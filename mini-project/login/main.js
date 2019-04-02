@@ -2,17 +2,20 @@ window.onload = function (){
     var loginData = [
         {
             username: "ahmed",
-            password: "Benhajar"  
+            password: "Benhajar",  
+            email:     "ahmed-ben10@hotmail.nl"
         },
         
         {
             username: "admin",
-            password: "0000"  
+            password: "0000",
+            email:     "admin0@hotmail.nl"  
         },
 
         {
             username: "1",
-            password: "2"  
+            password: "2",  
+            email:     "default@hotmail.nl"
         }
     ]
         checkUsername= false;
@@ -21,6 +24,10 @@ window.onload = function (){
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
         for(var i=0; i<loginData.length; i++){
+            if(checkUsername == false||checkPassword == false){
+                document.getElementById("message").style.display="none";
+            }
+            
             if(username == ""){
                 document.getElementById("username").style.border=" 1px solid red";
             }
@@ -36,6 +43,7 @@ window.onload = function (){
 
             else{
                 console.log("Wrong Username");
+                checkUsername= false;
                 document.getElementById("username").style.border=" 1px solid red";  
             }
 
@@ -46,11 +54,15 @@ window.onload = function (){
 
             else{
                 console.log("Wrong password");  
+                checkPassword= false;
                 document.getElementById("password").style.border=" 1px solid red";
             }
 
+            
+
             if(checkPassword&&checkUsername){
                 console.log("login is succesfuly!")
+                console.log(loginData);
                 document.getElementById("message").style.display="block";
                 return
             }
@@ -66,7 +78,7 @@ window.onload = function (){
         document.getElementById("login-container").style.display="block";
         document.getElementById("signup-container").style.display="none";
     });
-
+    
     document.getElementById("signupsubmit").addEventListener("click", function(){
         var username = document.getElementById("signupusername").value;
         var password = document.getElementById("signuppassword").value;
@@ -82,5 +94,14 @@ window.onload = function (){
         if(email == ""){
             document.getElementById("email").style.border=" 1px solid red";
         }
+
+        var newAccount ={
+            username: username,
+            password: password,
+            email:    email  
+        };
+        loginData.push(newAccount);
+
+        
     });
 };
