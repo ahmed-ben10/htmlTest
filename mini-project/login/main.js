@@ -101,7 +101,8 @@ window.onload = function (){
             email:    email  
         };
         loginData.push(newAccount);
-
-        
+        document.getElementById("signupusername").value = "";
+        document.getElementById("signuppassword").value = "";
+        document.getElementById("email").value = "";
     });
 };
