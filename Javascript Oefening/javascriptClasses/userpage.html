@@ -21,6 +21,7 @@
                 </div>     
             <a href="artiesten.html">Artists</a>
             <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
             </nav>
             <nav id="navMobileELement">
             <img src="images/music4u.png" alt="Music4U" id="logo">
@@ -30,29 +31,13 @@
                 <a href="genre.html"class="focus">Genre </a>    
                 <a href="artiesten.html">Artists</a>
                 <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
             </div>
     </nav>
-        
-    <div id="login-container">
-        <h1 >Login</h1>
-        <h2 id="message">Login succesfully!</h2>
-        <div id="username-container">
-            <h2>Username</h2>
-            <input type="text" name="username" id="username"placeholder="Username..">
-        </div>
-        <div id="password-container">
-            <h2>Password</h2>
-            <input type="password" name="Password" id="password"placeholder="Password..">
-        </div>
-        <button id="submit">Login</button>
-        <p>New here? <a href="#" id="signup">Sign up</a></p>
-    </div>
-    
     <div id="userInfo-container">
-        <h1 id="username-display">Welkom: </h1>
-            
+        <h1 id="username-display">Welkom: </h1>     
         <div id="user-information">
-            
+            <h1 class="gegevens">Klantgegevens</h1>
             <table>
                 <tr>
                     <th>Firstname: </td>
@@ -78,8 +63,10 @@
                     <th>Klantnummer: </td>
                     <td id="loggedin-klantnummer">111111</td>
                 </tr>
-            </table><img src="images/userPhoto.png" alt="profielfoto"id="profielfoto">
+            </table>
+            <h1 class="gegevens">Recente Bestelingen</h1>
+            <h2>U heeft geen recente bestelingen</h2>
     </div>
-    <script src="main.js"></script>
+    <script src="loggedin.js"></script>
 </body>
 </html>

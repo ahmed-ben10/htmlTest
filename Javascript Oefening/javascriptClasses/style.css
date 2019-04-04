@@ -102,7 +102,7 @@ nav a:hover{
     background-color: #182433bf;
     padding: 10px;
     margin: auto;
-    margin-top: 10% 
+    margin-top: 5% 
 }
 
 #login-container h1,#signup-container h1{
@@ -155,29 +155,26 @@ input{
     border: 1px solid gray;
     background-color: #182433bf;
     margin: auto;
-    margin-top: 10%;
-    display: none;
+    margin-top: 3%;
 }
 
 #userInfo-container h1{
     margin-bottom: 1%;
 }
 
-#userInfo-container img{
-    float:  right;
-    width: 20%;
-    height: 20%;
-} 
+.gegevens{
+  padding-bottom: 1%;
+  margin-top: 1%; 
+  border-bottom: 2px solid white;
+}
 
 #userInfo-container table{
     width: 90%;
-    border-collapse: collapse;
-    border-style: solid;
     color: white;
     text-align: left;
+    font-size: 15pt;
 }
 #userInfo-container table tr td,#userInfo-container table tr th {
-    border-style: solid;
     padding: 3px;
 }
 

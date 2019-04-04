@@ -73,31 +73,14 @@ class Login{
             }
 
             if(checkPassword&&checkUsername){
-                //Doorsturen naar pagina met userinfo
-                document.getElementById('login-container').style.display = "none";
-                var userinfo = new Userinfo();
-                userinfo.displayUserinfo(loginData,i);
-                return
-                // document.getElementById('message').style.display="block";
-                // document.getElementById('username').style.border="1px solid black";
-                // document.getElementById('password').style.border="1px solid black";
+                localStorage.setItem("i",i);
+                localStorage.setItem("loginData",JSON.stringify(loginData))
+                var link = "file:///C:/Users/ahmed/Documents/htmlTest/Javascript%20Oefening/javascriptClasses/userpage.html";
+                window.location.assign("userpage.html");
+                return false
             }
         }
     }
 }
-class Userinfo{
-    constructor(){}
-    displayUserinfo(loginData,i){
-        this.loginData=loginData;
-        this.i=i;
-        document.getElementById('username-display').innerHTML+=loginData[i].username;
-        document.getElementById('userInfo-container').style.display="block";
-        document.getElementById('profielfoto').src=loginData[i].profielfoto;
-        document.getElementById('loggedin-firstname').innerHTML=loginData[i].firstname;
-        document.getElementById('loggedin-lastname').innerHTML=loginData[i].lastname;
-        document.getElementById('loggedin-adres').innerHTML=loginData[i].adres;
-        document.getElementById('loggedin-postcode').innerHTML=loginData[i].postcode;
-        document.getElementById('loggedin-email').innerHTML=loginData[i].email;
-        document.getElementById('loggedin-klantnummer').innerHTML=loginData[i].klantnummer;
-    }
-}
+
+
