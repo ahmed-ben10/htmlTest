@@ -8,6 +8,31 @@
     <title>Document</title>
 </head>
 <body>
+    <nav id="normalNav">
+            <img src="images/music4u.png" alt="Music4U" id="logo">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="genre.html"class="focus">Genre </a>
+                    <div class="dropdown-content">
+                        <a href="hiphop.html">HipHop</a>
+                        <a href="pop.html">Pop</a>
+                        <a href="rock.html">Rock</a>
+                    </div>
+                </div>     
+            <a href="artiesten.html">Artists</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+            <nav id="navMobileELement">
+            <img src="images/music4u.png" alt="Music4U" id="logo">
+            <!-- <img id="menuIcon" src="images/icons/menu.png" alt=""> -->
+            <div id="mobileNav">
+                <a href="index.html">Home</a>
+                <a href="genre.html"class="focus">Genre </a>    
+                <a href="artiesten.html">Artists</a>
+                <a href="contact.html">Contact</a>
+            </div>
+    </nav>
+        
     <div id="login-container">
         <h1 >Login</h1>
         <h2 id="message">Login succesfully!</h2>
@@ -23,6 +48,38 @@
         <p>New here? <a href="#" id="signup">Sign up</a></p>
     </div>
     
+    <div id="userInfo-container">
+        <h1 id="username-display">Welkom: </h1>
+            
+        <div id="user-information">
+            
+            <table>
+                <tr>
+                    <th>Firstname: </td>
+                    <td id="loggedin-firstname">Jan-hendriklaan</td>
+                </tr>
+                <tr>
+                    <th>Lastname: </td>
+                    <td id="loggedin-lastname">Jan-hendriklaan</td>
+                </tr>
+                <tr>
+                    <th>Adres: </td>
+                    <td id="loggedin-adres">Jan-hendriklaan</td>
+                </tr>
+                <tr>
+                    <th>Postcode: </td>
+                    <td id="loggedin-postcode">2222</td>
+                </tr>
+                <tr>
+                    <th>E-mail: </td>
+                    <td id="loggedin-email">exampel@hotmail.nl</td>
+                </tr>
+                <tr>
+                    <th>Klantnummer: </td>
+                    <td id="loggedin-klantnummer">111111</td>
+                </tr>
+            </table><img src="images/userPhoto.png" alt="profielfoto"id="profielfoto">
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
